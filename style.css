@@ -1,0 +1,22 @@
+h1{
+    margin-left: 2rem;  /* Gives margin of 2rem before YouTube. */
+}
+
+li{   /* works on all list */
+    list-style: none;
+    justify-content: space-between;
+    /*margin-right: 15rem;
+    margin-left: 2rem;*/
+}
+
+.NavBar>nav{
+    display: flex;   /* Puts YouTube and Search, Sign-in parallel. */
+    justify-content: space-between;   /* Moves Search and sign-in to right most side. */
+    padding-top: 1rem;
+}
+
+.NavBar>nav>ul{
+    display: flex;
+    /*justify-content: space-between;*/
+    
+}
